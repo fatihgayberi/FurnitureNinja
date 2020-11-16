@@ -46,3 +46,4 @@ MonoBehaviour:
   furniturePrefabs:
   - {fileID: 9148179991899992011, guid: 212705ce728cb2f4692356f9134e976f, type: 3}
   - {fileID: 647963117600610928, guid: 16fe37262458d4d4580abf7e3d099da5, type: 3}
+  waitSecond: 2

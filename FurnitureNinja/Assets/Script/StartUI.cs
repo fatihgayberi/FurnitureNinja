@@ -33,6 +33,6 @@ public class StartUI : MonoBehaviour
     void HighScore()
     {
         dataManager.Load();
-        highScoreTxt.text = "High Score: " + dataManager.data.GetHighScore();
+        highScoreTxt.text = "High Score " + dataManager.data.GetHighScore();
     }
 }

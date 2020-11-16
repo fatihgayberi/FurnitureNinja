@@ -126,4 +126,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pieces: {fileID: 1601363668274714688, guid: 52b2d05186df73e4e9f4c854a1b9117d, type: 3}
+  piecesParticle: {fileID: 5426282138399010186, guid: 120a5f76ac0663f4fa2efd7dd7dc2724,
+    type: 3}
   forceModifier: 30

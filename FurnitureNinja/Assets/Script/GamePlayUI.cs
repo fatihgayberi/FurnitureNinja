@@ -32,7 +32,7 @@ public class GamePlayUI : MonoBehaviour
         star[health].SetActive(false);
 
         // tum canlar bittiginde Game Over olmasini saglar
-        if (health <= 3)
+        if (health <= 0)
         {
             Destroy(GameObject.Find("Spawner"));
             gameManager.SetActive(false);

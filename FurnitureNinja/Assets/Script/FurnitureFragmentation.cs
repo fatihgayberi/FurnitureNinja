@@ -6,6 +6,7 @@ public class FurnitureFragmentation : MonoBehaviour
 {
     GamePlayUI gamePlayUI;
     [SerializeField] GameObject pieces;
+    [SerializeField] GameObject piecesParticle;
     Rigidbody rbFurniture;
     public float forceModifier;
 
@@ -24,6 +25,7 @@ public class FurnitureFragmentation : MonoBehaviour
         {
             gamePlayUI.ScoreWinner();
             Instantiate(pieces, transform.position, Quaternion.identity);
+            Instantiate(piecesParticle, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
 

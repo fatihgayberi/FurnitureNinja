@@ -97,6 +97,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pieces: {fileID: 8258488939363310292, guid: 7b6f47236ff817949a05309071d5cb98, type: 3}
+  piecesParticle: {fileID: 5426282138399010186, guid: 120a5f76ac0663f4fa2efd7dd7dc2724,
+    type: 3}
   forceModifier: 30
 --- !u!54 &3252732939315492943
 Rigidbody:
